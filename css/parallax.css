@@ -1,0 +1,50 @@
+#bgsky {
+    z-index: 1;
+    background-size:contain;
+    height: 100%;
+    width: 1000%;
+    top: 0px;
+    left: 0px;
+    background-image: url(../img/bg_sky.png);
+    background-repeat: repeat-x;
+    position: absolute;
+
+}
+
+#bglevel {
+    z-index: 2;
+    background-size: contain;
+    height: 100%;
+    width: 1000%;
+    top: 0px;
+    left: 0px;
+    background-image: url(../img/bg_level.png);
+    position: absolute;
+}
+
+#bgsun {
+    z-index: 0;
+    background-size: contain;
+    height: 100%;
+    width: 1000%;
+    top: 0px;
+    left: 0px;
+    background-image: url(../img/sun.png);
+    position: absolute;
+}
+#mario {
+    z-index: 4;
+    height: 17%;
+    bottom: 13%;
+    position: absolute;
+    
+}
+
+#buttonstart {
+    z-index: 5;
+    top: 20%;
+    position: absolute;
+}
+
+#parallaxeffect {
+}
